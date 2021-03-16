@@ -1,0 +1,32 @@
+h1 {
+  /* font-family: 'Pompiere', cursive; */
+  /* font-family: 'Bellota Text', cursive; */
+  /* font-family: 'Unica One', cursive; */
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 5em;
+  text-align: center;
+  color: rgb(97, 78, 90);
+}
+
+body {
+  font-family: 'Julius Sans One', sans-serif;
+  background-color: rgb(241, 222, 222);
+}
+
+table {
+  border: 1px solid rgb(97, 78, 90);
+}
+
+th {
+ padding: 12px 5px 12px 5px;
+
+}
+
+/* Maximum Green: rgb(103, 148, 54);
+Misty Rose: rgb(241, 222, 222);
+old Lavender rgb(128, 114, 123);
+Light Blue: rgb(160, 210, 219);
+Yellow Green CRrayola: rgb(194, 208, 118); */
+
+/* font-family: 'Bellota Text', cursive; */
+/* font-family: 'Unica One', cursive; */

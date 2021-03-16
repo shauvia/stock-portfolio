@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Stock Wallet</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Unica+One&display=swap"rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>My Stock Wallet</h1>
+    <form>
+      <label for='stockSym'>Company Stock Symbol</label>
+      <input type='text' id='stockSym'>
+      <label for='shareNumb'>Number Of Shares</label>
+      <input type='text' id='shareNumb'>
+    </form>
+    <button type='button' id='submituj'>Submituj</button>
+    <article>
+      <table>
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Shares</th>
+            <th>Purchase Price</th>
+            <th>Current Price</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+    </article>
+  </body>
+  <script src="js/app.js"></script>  
+</html>
