@@ -13,9 +13,9 @@
     <h1>My Stock Wallet</h1>
     <form>
       <label for='stockSym'>Company Stock Symbol</label>
-      <input type='text' id='stockSym'>
+      <input type='text' id='stockSym' value='IBM'>
       <label for='shareNumb'>Number Of Shares</label>
-      <input type='text' id='shareNumb'>
+      <input type='text' id='shareNumb' value='80'>
     </form>
     <button type='button' id='submituj'>Submituj</button>
     <article>
@@ -26,12 +26,13 @@
             <th>Shares</th>
             <th>Purchase Price</th>
             <th>Current Price</th>
+            <th>Difference</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody id='tableBody'></tbody>
         <tfoot></tfoot>
       </table>
     </article>
   </body>
-  <script src="js/app.js"></script>  
+  <script src="js/appka.js"></script>  
 </html>
